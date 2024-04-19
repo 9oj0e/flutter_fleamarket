@@ -14,7 +14,7 @@ class FleaMarketUI extends StatelessWidget {
       title: 'flea_market_ui',
       debugShowCheckedModeBanner: true,
       home: MainScreens(),
-      theme: theme(),
+      theme: theme(), // AppBar에 theme 자동 적용
     );
   }
 }
